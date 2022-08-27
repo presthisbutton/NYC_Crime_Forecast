@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title = "Intro", page_icon = "👮")
 
-st.title("NYC Historical Crime Data and Future Forecast")
+st.title("New York City Historical Crime Data and Future Forecast")
 
 st.markdown(
     """

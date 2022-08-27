@@ -106,7 +106,7 @@ if clicked:
     route_crimefree = ors.directions(**avoid_crime)
     # Build popup
     distance, duration = route_crimefree["features"][0]["properties"]["summary"].values()
-    popup = folium.map.Popup(popup_route.format("Crimefree Route", duration / 60, distance / 1000))
+    popup = folium.map.Popup(popup_route.format("Recommended", duration / 60, distance / 1000))
     folium.GeoJson(route_crimefree, style_function = style_function("green")).add_child(popup).add_to(base_map)
     folium.Marker(list(reversed(coordinates[0])), popup = "Origin").add_to(base_map)
     folium.Marker(list(reversed(coordinates[1])), popup = "Destination").add_to(base_map)
