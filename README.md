@@ -12,6 +12,15 @@ The second page is a crime forecast app. Users can select a borough, victim demo
 
 The third page is a route recommender. Users can select a start and end point and the recommender will show a normal route, which is the shortest walking distance between the two points and a recommended route, which is the shortest distance while avoiding the crime hotspots. Each hotspot has a 0.2 miles buffer and the route planner will attempt to plot a route that goes around it.
 
+## App Demo
+![App_demo1](demo1.gif)
+![App_demo2](demo2.gif)
+![App_demo3](demo3.gif)
+
+## Links
+- <a href="https://presthisbutton-nyc-crime-forecast-1--intro-wu44mc.streamlitapp.com/" target="_blank">Crime Forecast App</a>
+- <a href="https://public.tableau.com/app/profile/florian.bogner/viz/NYPDcrimes/Dashboard1" target="_blank">Tableau Dashboard</a>
+
 ## Tools
 - Python
 - Pandas
@@ -21,4 +30,9 @@ The third page is a route recommender. Users can select a start and end point an
 - Openrouteservice
 - Shapely
 - Streamlit
+- Tableau
+
+## Dataset / Source
+- <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank">NYPD Complain Data Historic</a>
+
 
